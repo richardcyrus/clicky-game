@@ -1,6 +1,6 @@
 {
   "name": "clicky-game",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.1",
@@ -13,6 +13,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardcyrus/clicky-game.git"
+  },
+  "author": "Richard Cyrus <hello@rcyrus.com> (https://www.richardcyrus.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardcyrus/clicky-game/issues"
+  },
+  "homepage": "https://github.com/richardcyrus/clicky-game#readme",
   "eslintConfig": {
     "extends": "react-app"
   },
