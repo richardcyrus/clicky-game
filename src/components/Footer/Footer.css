@@ -1,0 +1,26 @@
+.footer {
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 5rem;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.footer .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer .container-fluid p {
+  background: #0062cc;
+  font-weight: 600;
+  margin: 0;
+  padding: 5px 5px 5px 10px;
+  width: 100%;
+}
+
+.react-logo {
+  width: 30px;
+}
