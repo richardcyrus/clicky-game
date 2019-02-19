@@ -1,0 +1,47 @@
+@keyframes correct {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #2e7d32;
+  }
+  to {
+    color: #fff;
+  }
+}
+
+@keyframes incorrect {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #c62828;
+  }
+  to {
+    color: #fff;
+  }
+}
+
+.navbar {
+  margin-bottom: 0;
+  min-height: 5rem;
+  z-index: 99;
+  font-size: calc(10px + 14 * (100vw - 320px) / 800);
+}
+
+a.navbar-brand {
+  font-weight: 900;
+  font-size: calc(10px + 14 * (100vw - 320px) / 800);
+}
+
+.navbar .user-message {
+  color: #ffffff;
+}
+
+.navbar .correct {
+  animation: 0.4s correct;
+}
+
+.navbar .incorrect {
+  animation: 0.4s incorrect;
+}
