@@ -1,0 +1,23 @@
+.card {
+  margin: 1rem 1.25rem;
+  cursor: pointer;
+}
+
+.card .img-container {
+  /* Scale the background image */
+  background-position: 50%;
+  /* Disable the background image repeat */
+  background-repeat: no-repeat;
+  /* Set the background image to contain to normalise all of the sizes */
+  background-size: contain;
+  /* Use the Gossamer image to normalise the image dimensions (height and width) */
+  height: 180px;
+  width: 185px;
+  /* Create interior space in the card */
+  margin: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.1s;
+}
