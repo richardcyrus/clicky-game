@@ -92,7 +92,31 @@ class App extends Component {
   }
 
   render() {
-    return <div className="App" />;
+    const { shake } = this.state;
+
+    return (
+      <div className="App">
+        <Navbar
+          userMessage={this.state.userMessage}
+          currentScore={this.state.score}
+          topScore={this.state.topScore}
+        />
+        <Jumbotron />
+        <Container>
+          <div className={'card-flex' + (shake ? ' shake' : '')}>
+            {this.state.characters.map((character) => (
+              <Card
+                handleClick={this.handleClick}
+                id={character.id}
+                key={character.id}
+                image={character.image}
+              />
+            ))}
+          </div>
+        </Container>
+        <Footer />
+      </div>
+    );
   }
 }
 
