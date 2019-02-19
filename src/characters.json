@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bugs Bunny",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/2/26/Classic_bugsbunny.png/revision/latest?cb=20160417193815"
+  },
+  {
+    "id": 2,
+    "name": "Foghorn Leghorn",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/1/11/FoghornLeghorn2.png/revision/latest?cb=20130223190604"
+  },
+  {
+    "id": 3,
+    "name": "Marvin the Martian",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/a/a7/307px-Marvin_the_Martian.gif/revision/latest/scale-to-width-down/150?cb=20130824011616"
+  },
+  {
+    "id": 4,
+    "name": "Gossamer",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/b/b0/Gosamer_300.gif/revision/latest/scale-to-width-down/185?cb=20110827221901"
+  },
+  {
+    "id": 5,
+    "name": "Elmer Fudd",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/e/e5/Gunfade.gif/revision/latest?cb=20110827193619"
+  },
+  {
+    "id": 6,
+    "name": "Porky Pig",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/4/4e/PorkyPigBig.gif/revision/latest?cb=20060212220203"
+  },
+  {
+    "id": 7,
+    "name": "Yosemite Sam",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/8/8c/Yosemite_Sam.png/revision/latest?cb=20180523161541"
+  },
+  {
+    "id": 8,
+    "name": "Sylvester",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/8/88/Sylvester_the_Cat.png/revision/latest?cb=20130119144206"
+  },
+  {
+    "id": 9,
+    "name": "Pepé Le Pew",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/9/91/Pepe-Le-Pew.png/revision/latest/scale-to-width-down/250?cb=20190108223946"
+  },
+  {
+    "id": 10,
+    "name": "Speedy Gonzales",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/4/46/SpeedyGonzales.png/revision/latest?cb=20180519155226"
+  },
+  {
+    "id": 11,
+    "name": "Penelope Pussycat",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/8/8d/Penelope.png/revision/latest/scale-to-width-down/300?cb=20180522103655"
+  },
+  {
+    "id": 12,
+    "name": "Tasmanian Devil",
+    "image": "https://vignette.wikia.nocookie.net/looneytunes/images/e/e1/230px-Taz-Looney_Tunes_svg.png/revision/latest?cb=20130825180200"
+  }
+]
