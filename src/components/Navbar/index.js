@@ -3,9 +3,6 @@ import './Navbar.css';
 
 class Navbar extends Component {
   render() {
-    const correct = this.props.userMessage.correct;
-    const incorrect = this.props.userMessage.incorrect;
-
     return (
       <nav className="navbar shadow-lg fixed-top navbar-expand-lg navbar-dark bg-primary">
         <a href="/" className="navbar-brand">
@@ -17,13 +14,13 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse">
           <div className="navbar-nav mx-auto">
             <span
+              onAnimationEnd={() => this.props.onNavbarAnimationEnd()}
               className={
                 'navbar-text user-message' +
-                (correct ? ' correct' : '') +
-                (incorrect ? ' incorrect' : '')
+                (this.props.flash ? ` ${this.props.flash}` : '')
               }
             >
-              {this.props.userMessage.message}
+              {this.props.message}
             </span>
           </div>
           <div className="navbar-nav">

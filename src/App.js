@@ -10,19 +10,16 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
-  }
-
-  state = {
-    score: 0,
-    topScore: 0,
-    shake: false,
-    userMessage: {
+    this.handleMessageAnimationEnd = this.handleMessageAnimationEnd.bind(this);
+    this.state = {
+      score: 0,
+      topScore: 0,
+      shake: false,
       message: 'Click an image to begin play!',
-      correct: false,
-      incorrect: false
-    },
-    characters: this.shuffle(characters)
-  };
+      flash: false,
+      characters: this.shuffle(characters)
+    };
+  }
 
   alreadyChosen = [];
 
@@ -52,7 +49,6 @@ class App extends Component {
   }
 
   handleClick(id) {
-    console.log('App.handleClick() id:', id);
     const characters = this.shuffle(this.state.characters);
     let highScore = this.state.topScore;
 
@@ -62,11 +58,8 @@ class App extends Component {
         score: 0,
         shake: true,
         characters: characters,
-        userMessage: {
-          message: 'You guessed incorrectly!',
-          correct: false,
-          incorrect: true
-        }
+        message: 'You guessed incorrectly.',
+        flash: 'incorrect'
       });
     } else {
       this.alreadyChosen.push(id);
@@ -82,13 +75,16 @@ class App extends Component {
         shake: false,
         topScore: highScore,
         characters: characters,
-        userMessage: {
-          message: 'You guessed correctly!',
-          correct: true,
-          incorrect: false
-        }
+        message: 'You guessed correctly!',
+        flash: 'correct'
       });
     }
+  }
+
+  handleMessageAnimationEnd() {
+    this.setState({
+      flash: false
+    });
   }
 
   render() {
@@ -97,9 +93,11 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar
-          userMessage={this.state.userMessage}
+          message={this.state.message}
           currentScore={this.state.score}
           topScore={this.state.topScore}
+          flash={this.state.flash}
+          onNavbarAnimationEnd={this.handleMessageAnimationEnd}
         />
         <Jumbotron />
         <Container>
