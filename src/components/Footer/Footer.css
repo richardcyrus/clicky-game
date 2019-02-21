@@ -1,5 +1,5 @@
 .footer {
-  background-color: #007bff;
+  background-color: #7c0100;
   color: white;
   display: flex;
   flex-flow: column nowrap;
@@ -14,7 +14,7 @@
 }
 
 .footer .container-fluid p {
-  background: #0062cc;
+  background: #630100;
   font-weight: 600;
   margin: 0;
   padding: 5px 5px 5px 10px;

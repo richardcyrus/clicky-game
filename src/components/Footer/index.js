@@ -8,7 +8,7 @@ class Footer extends Component {
       <footer className="footer">
         <div className="container-fluid">
           <p>
-            Clicky Game!&nbsp;
+            Looney Tunes<sup>&reg;</sup> Clicky Game!&nbsp;
             <img src={logo} className="react-logo" alt="React Logo" />
           </p>
         </div>

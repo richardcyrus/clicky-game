@@ -24,7 +24,7 @@ class App extends Component {
   alreadyChosen = [];
 
   /**
-   * A Fisher-Yates shuffle to ensure that grid is unique on each shuffle.
+   * Fisher-Yates shuffle.
    *
    * @see https://bost.ocks.org/mike/shuffle/
    * @see https://www.frankmitchell.org/2015/01/fisher-yates/
@@ -91,7 +91,7 @@ class App extends Component {
     const { shake } = this.state;
 
     return (
-      <div className="App">
+      <div className="clicky-game">
         <Navbar
           message={this.state.message}
           currentScore={this.state.score}

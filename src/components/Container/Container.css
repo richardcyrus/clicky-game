@@ -1,14 +1,14 @@
 .game-container {
-  padding-bottom: 1.5625rem;
   flex: 1 0 auto;
+  padding-bottom: 1.5625rem;
 }
 
 .card-flex {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }

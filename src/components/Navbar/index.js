@@ -4,7 +4,7 @@ import './Navbar.css';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar shadow-lg fixed-top navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
         <a href="/" className="navbar-brand">
           Clicky Game
         </a>

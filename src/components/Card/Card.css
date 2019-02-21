@@ -1,6 +1,6 @@
 .card {
-  margin: 1rem 1.25rem;
   cursor: pointer;
+  margin: 1rem 1.25rem;
 }
 
 .card .img-container {

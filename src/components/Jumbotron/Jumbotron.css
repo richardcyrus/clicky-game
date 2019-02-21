@@ -1,7 +1,8 @@
 .jumbotron {
-  background-color: #282828;
-  background-image: url(./carbon_fibre.png);
-  background-repeat: repeat;
+  background-color: #7c0100;
+  background-image: url(./05-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 25rem;
   padding: 9.5rem 1.25rem 8.25rem 1.25rem;
