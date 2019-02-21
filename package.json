@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.5"
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -34,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/richardcyrus/clicky-game/issues"
   },
-  "homepage": "https://github.com/richardcyrus/clicky-game#readme",
+  "homepage": "https://www.richardcyrus.com/clicky-game",
   "eslintConfig": {
     "extends": "react-app"
   },
