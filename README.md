@@ -22,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Credits
 
-[Red Curtains](http://www.freepik.com "Designed by Freepik") - Designed by Freepik
-[Brick Wall](https://www.toptal.com/designers/subtlepatterns/brick-wall/ "Subtle Patterns - Benjamin Ward") - Benjamin Ward
-[Character Images](https://looneytunes.fandom.com/wiki/Main_Page "Looney Tunes - Fandom") - Looney Tunes Fandom
+* [Red Curtains](http://www.freepik.com "Designed by Freepik") - Designed by Freepik
+* [Brick Wall](https://www.toptal.com/designers/subtlepatterns/brick-wall/ "Subtle Patterns - Benjamin Ward") - Benjamin Ward
+* [Character Images](https://looneytunes.fandom.com/wiki/Main_Page "Looney Tunes - Fandom") - Looney Tunes Fandom
 
