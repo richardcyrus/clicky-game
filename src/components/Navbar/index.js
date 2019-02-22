@@ -4,7 +4,7 @@ import './Navbar.css';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
+      <nav className="navbar fixed-top navbar-expand navbar-dark">
         <a href="/" className="navbar-brand">
           Clicky Game
         </a>
@@ -25,7 +25,7 @@ class Navbar extends Component {
           </div>
           <div className="navbar-nav">
             <span className="navbar-text text-white">
-              Score:&nbsp;{this.props.currentScore}&nbsp;|&nbsp;Top Score:&nbsp;
+              Score:&nbsp;{this.props.currentScore}&nbsp;| Top&nbsp;Score:&nbsp;
               {this.props.topScore}
             </span>
           </div>
